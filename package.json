@@ -1,0 +1,33 @@
+{
+  "name": "monorepo",
+  "version": "0.0.0",
+  "scripts": {
+    "test": "make test",
+    "build": "make build"
+  },
+  "keywords": [
+    "monorepo"
+  ],
+  "author": "thomas@reggi.com",
+  "license": "ISC",
+  "devDependencies": {
+    "ied": "^2.0.4",
+    "json": "^9.0.4",
+    "lerna": "2.0.0-beta.16"
+  },
+  "main": "index.js",
+  "dependencies": {
+    "ied": "^2.0.4",
+    "json": "^9.0.4",
+    "lerna": "^2.0.0-beta.16"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reggi/monorepo.git"
+  },
+  "bugs": {
+    "url": "https://github.com/reggi/monorepo/issues"
+  },
+  "homepage": "https://github.com/reggi/monorepo#readme",
+  "description": ""
+}
