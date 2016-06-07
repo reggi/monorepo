@@ -56,7 +56,8 @@ gitignore-create:
 	echo 'node_modules' >> .gitignore ;\
 	echo 'npm' >> .gitignore ;\
 	echo '.DS_Store' >> .gitignore ;\
-
+	echo 'lerna-debug.log' >> .gitignore ;\
+	
 ## babel
 
 babel-install-preset:
